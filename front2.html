@@ -1,0 +1,886 @@
+<html>
+
+<head>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="front2.css">
+    <style>
+      
+ 
+    </style>
+</head>
+
+<body>
+    <!-- NAVIGATION BAR START -->
+
+    <div class="section">
+        <div class="container">
+            <nav class="navbar navbar-expand-md bg-info navbar-dark fixed-top">
+                <a class="navbar-brand"><img src="/img/logo.png" alt="" width="50px"></a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#bar" id="togicon">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="bar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="" class="btn">Offers</a>
+                        </li>
+                        <li class="nav-item" id="pos">
+                            <a class="btn dropdown" data-toggle="dropdown">Account</a>
+                            <div class="dropdown-menu">
+                            <a class="dropdown-item" href="">Profile</a>
+                            <a class="dropdown-item" href="">Track Order</a>
+                            <a class="dropdown-item" href="">LogOut</a>
+
+                        </li>
+                    </ul>
+
+                    <div class="input-group" id="srch">
+                        <input type="text" class="form-control" placeholder="Search...">
+                        <div class="input-group-append">
+                            <button class="btn btn-secondary" type="button">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </nav>
+
+        </div>
+    </div>
+
+    <!-- NAVIGATION BAR END -->
+
+    <!-- HALDIRAM SLIDER START -->
+
+    <div class="container border-bottom">
+        <center>
+            <H2 id="hal">HALDIRAM'S</H2>
+        </center>
+
+
+        <div class="carousel slide" data-ride="carousel" data-interval="2000" id="demo">
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active cen">
+                    <div class="row" id="c1">
+                        <div class="col-md-6 col-sm-6 col-6">
+                            <img src="/img/haldi namkeen front.jpeg" alt="" >
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-6">
+                            <center>
+                                <h3>NAMKEENS</h3>
+
+                                <table border="5" cellspacing="5" cellpading="10" id="mid">
+                                    <tr>
+                                        <td><img class="image" src="/img/namkeens/aloobhujia.png" alt="" height="120px"
+                                                width="100px">
+                                                <div class="middle">
+                                                    <div class="text">John Doe</div>
+                                                  </div></td>
+
+
+                                        <td> <img class="img" src="/img/namkeens/gujrati mix.jpg" alt="" height="120px"
+                                                width="100px"><br>
+                                            Gujrati Mix</td>
+
+                                        <td><img class="img" src="/img/namkeens/haldibhujia.jpg" alt="" height="120px"
+                                                width="100px"><br>
+                                            Bhujia</td>
+                                        <td><img class="img" src="/img/bombay-mix-removebg-preview.png" alt=""
+                                                height="120px" width="100px"><br>
+                                            Golden Mix</td>
+
+
+                                    </tr>
+
+                                    <tr>
+                                        <td><img class="img" src="/img/namkeens/nut cracker.jpg" alt="" height="120px"
+                                                width="100px"><br>
+                                            Nut Cracker</td>
+
+
+                                        <td> <img class="img" src="/img/namkeens/gupshup.jpg" alt="" height="120px"
+                                                width="100px"><br>
+                                            GupShup</td>
+
+                                        <td><img class="img" src="/img/namkeens/allo_mixture-removebg-preview.png"
+                                                alt="" height="120px" width="100px"><br>
+                                            allo Mix</td>
+                                        <td><img class="img" src="/img/namkeens/punjabi-tadka.jpg" alt="" height="120px"
+                                                width="100px"><br>
+                                            punjabi-tadka</td>
+
+
+                                    </tr>
+
+
+
+                                </table>
+                            </center>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="carousel-item cen">
+                    <div class="row" id="c1">
+                        <div class="col-md-6 col-sm-6 col-6">
+                            <img src="/img/haldi namkeen front.jpeg" alt="" >
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-6">
+                            <center>
+                                <h3>SNACKS</h3>
+
+                                <table border="5" cellspacing="5" cellpading="10" id="mid">
+                                    <tr>
+                                        <td><img class="img" src="/img/snacks/chips salted.jpg" alt="" height="120px"
+                                                width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                        <td> <img class="img" src="/img/snacks/mast-masala.jpg" alt="" height="120px"
+                                                width="100px"><br>
+                                            allo bhujia</td>
+
+                                        <td><img class="img" src="/img/snacks/mexilla.jpg" alt="" height="120px"
+                                                width="100px"><br>
+                                            allo bhujia</td>
+                                        <td><img class="img" src="/img/snacks/panga.jpg" alt="" height="120px"
+                                                width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                    </tr>
+
+                                    <tr>
+                                        <td><img class="img" src="/img/snacks/popcorn.jpg" alt="" height="120px"
+                                                width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                        <td> <img class="img" src="/img/snacks/pudina-chips.jpg" alt="" height="120px"
+                                                width="100px"><br>
+                                            allo bhujia</td>
+
+                                        <td><img class="img" src="/img/snacks/snac finger.jpg" alt="" height="120px"
+                                                width="100px"><br>
+                                            allo bhujia</td>
+                                        <td><img class="img" src="/img/snacks/snac fires.jpg" alt="" height="120px"
+                                                width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                    </tr>
+
+
+
+                                </table>
+                            </center>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="carousel-item cen">
+                    <div class="row" id="c1">
+                        <div class="col-md-6 col-sm-6 col-6">
+                            <img src="/img/haldi namkeen front.jpeg" alt="" width="100%" height="400px">
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-6">
+
+                            <center>
+                                <h3>SWEETS</h3>
+
+                                <table border="5" cellspacing="5" cellpading="10" id="mid">
+                                    <tr>
+                                        <td><img class="img" src="/img/Sweets/gulab jamun.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                                gulab jamun</td>
+
+
+                                        <td> <img class="img" src="/img/Sweets/rasgulla.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                                rasgulla</td>
+
+                                        <td><img class="img" src="/img/Sweets/soan papdi.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                                soan papdi</td>
+                                        
+                                    </tr>
+                                </table>
+                            </center>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- HALDIRAM SLIDER CLOSE -->
+
+    <!-- NESTLE SLIDER START -->
+
+    <div class="container border-bottom">
+        <center>
+            <H2>NESTLE</H2>
+        </center>
+
+
+        <div class="carousel slide" data-ride="carousel" data-interval="2000" id="demo1">
+            <ul class="carousel-indicators">
+                <li data-target="#demo1" data-slide-to="0" class="active"></li>
+                <li data-target="#demo1" data-slide-to="1"></li>
+                <li data-target="#demo1" data-slide-to="2"></li>
+                <li data-target="#demo1" data-slide-to="3"></li>
+                <li data-target="#demo1" data-slide-to="4"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active cen">
+                    <div class="row" id="c1">
+                        
+                        <div class="col-md-6">
+                            <center>
+                                <h3>FOOD</h3>
+
+                                <table border="5" cellspacing="5" cellpading="10" id="mid">
+                                    <tr>
+                                        <td><img class="image" src="/img/remove background/WhatsApp_Image_2022-07-24_at_9.58.27_PM-removebg-preview.png" alt="" height="120px"
+                                                width="100px">
+                                                <div class="middle">
+                                                    <div class="text">John Doe</div>
+                                                  </div>
+                                            </td>
+
+
+                                        <td> <img class="img" src="/img/namkeens/gujrati mix.jpg" alt="" height="120px"
+                                                width="100px"><br>
+                                            Gujrati Mix</td>
+
+                                        <td><img class="img" src="/img/namkeens/haldibhujia.jpg" alt="" height="120px"
+                                                width="100px"><br>
+                                            Bhujia</td>
+                                        <td><img class="img" src="/img/namkeens/golden mixture.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            Golden Mix</td>
+
+
+                                    </tr>
+                                </table>
+                            </center>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="/img/nestle_front_Food1.jpg" alt="">
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="carousel-item cen">
+                    <div class="row" id="c1">
+                        
+                        <div class="col-md-6">
+
+                            <center>
+                                <h3>SWEETS</h3>
+
+                                <table border="5" cellspacing="5" cellpading="10" id="mid">
+                                    <tr>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                        <td> <img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                    </tr>
+
+                                    <tr>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                        <td> <img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                    </tr>
+
+
+
+
+                                </table>
+                            </center>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="/img/nestle_front_choco.jpg" alt="" width="100%" height="400px">
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="carousel-item cen">
+                    <div class="row" id="c1">
+                       
+                        <div class="col-md-6">
+
+                            <center>
+                                <h3>SWEETS</h3>
+
+                                <table border="5" cellspacing="5" cellpading="10" id="mid">
+                                    <tr>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                        <td> <img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                    </tr>
+
+                                    <tr>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                        <td> <img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                    </tr>
+
+                                </table>
+                            </center>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="/img/nestle_front_baby.jpg" alt="" width="100%" height="400px">
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="carousel-item cen">
+                    <div class="row" id="c1">
+                        
+                        <div class="col-md-6">
+
+                            <center>
+                                <h3>SWEETS</h3>
+
+                                <table border="5" cellspacing="5" cellpading="10" id="mid">
+                                    <tr>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                        <td> <img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                    </tr>
+
+                                    <tr>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                        <td> <img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                    </tr>
+
+
+
+
+                                </table>
+                            </center>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="/img/nestle_front_bev.jpg" alt="" width="100%" height="400px">
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="carousel-item cen">
+                    <div class="row" id="c1">
+                        
+                        <div class="col-md-6">
+
+                            <center>
+                                <h3>SWEETS</h3>
+
+                                <table border="5" cellspacing="5" cellpading="10" id="mid">
+                                    <tr>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                        <td> <img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                    </tr>
+
+                                    <tr>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                        <td> <img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                    </tr>
+
+
+
+
+                                </table>
+                            </center>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="/img/nestle_front_brkfst.jpg" alt="" width="100%" height="400px">
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- NESTLE SLIDER END -->
+
+    <!-- DETTOL SLIDER START -->
+
+    <div class="container border-bottom">
+        <center>
+            <H2>NESTLE</H2>
+        </center>
+
+
+        <div class="carousel slide" data-ride="carousel" data-interval="2000" id="demo2">
+            <ul class="carousel-indicators">
+                <li data-target="#demo2" data-slide-to="0" class="active"></li>
+                <li data-target="#demo2" data-slide-to="1"></li>
+                <li data-target="#demo2" data-slide-to="2"></li>
+                <li data-target="#demo2" data-slide-to="3"></li>
+                <li data-target="#demo2" data-slide-to="4"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active cen">
+                    <div class="row" id="c1">
+                        <div class="col-md-6">
+                            <img src="/img/nestle_front_Food1.jpg" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <center>
+                                <h3>FOOD</h3>
+
+                                <table border="5" cellspacing="5" cellpading="10" id="mid">
+                                    <tr>
+                                        <td><img class="image" src="/img/remove background/WhatsApp_Image_2022-07-24_at_9.58.27_PM-removebg-preview.png" alt="" height="120px"
+                                                width="100px">
+                                                <div class="middle">
+                                                    <div class="text">John Doe</div>
+                                                  </div>
+                                            </td>
+
+
+                                        <td> <img class="img" src="/img/namkeens/gujrati mix.jpg" alt="" height="120px"
+                                                width="100px"><br>
+                                            Gujrati Mix</td>
+
+                                        <td><img class="img" src="/img/namkeens/haldibhujia.jpg" alt="" height="120px"
+                                                width="100px"><br>
+                                            Bhujia</td>
+                                        <td><img class="img" src="/img/namkeens/golden mixture.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            Golden Mix</td>
+
+
+                                    </tr>
+                                </table>
+                            </center>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="carousel-item cen">
+                    <div class="row" id="c1">
+                        <div class="col-md-6">
+                            <img src="/img/nestle_front_choco.jpg" alt="" width="100%" height="400px">
+                        </div>
+                        <div class="col-md-6">
+
+                            <center>
+                                <h3>SWEETS</h3>
+
+                                <table border="5" cellspacing="5" cellpading="10" id="mid">
+                                    <tr>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                        <td> <img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                    </tr>
+
+                                    <tr>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                        <td> <img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                    </tr>
+
+
+
+
+                                </table>
+                            </center>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="carousel-item cen">
+                    <div class="row" id="c1">
+                        <div class="col-md-6">
+                            <img src="/img/nestle_front_baby.jpg" alt="" width="100%" height="400px">
+                        </div>
+                        <div class="col-md-6">
+
+                            <center>
+                                <h3>SWEETS</h3>
+
+                                <table border="5" cellspacing="5" cellpading="10" id="mid">
+                                    <tr>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                        <td> <img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                    </tr>
+
+                                    <tr>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                        <td> <img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                    </tr>
+
+                                </table>
+                            </center>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="carousel-item cen">
+                    <div class="row" id="c1">
+                        <div class="col-md-6">
+                            <img src="/img/nestle_front_bev.jpg" alt="" width="100%" height="400px">
+                        </div>
+                        <div class="col-md-6">
+
+                            <center>
+                                <h3>SWEETS</h3>
+
+                                <table border="5" cellspacing="5" cellpading="10" id="mid">
+                                    <tr>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                        <td> <img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                    </tr>
+
+                                    <tr>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                        <td> <img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                    </tr>
+
+
+
+
+                                </table>
+                            </center>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="carousel-item cen">
+                    <div class="row" id="c1">
+                        <div class="col-md-6">
+                            <img src="/img/nestle_front_brkfst.jpg" alt="" width="100%" height="400px">
+                        </div>
+                        <div class="col-md-6">
+
+                            <center>
+                                <h3>SWEETS</h3>
+
+                                <table border="5" cellspacing="5" cellpading="10" id="mid">
+                                    <tr>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                        <td> <img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                    </tr>
+
+                                    <tr>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                        <td> <img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+                                        <td><img class="img" src="/img/namkeens/aloobhujia-600x837.jpg" alt=""
+                                                height="120px" width="100px"><br>
+                                            allo bhujia</td>
+
+
+                                    </tr>
+
+
+
+
+                                </table>
+                            </center>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- DETTOL SLIDER END -->
+
+    <!-- LAST PART  -->
+    
+        <div class="bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h4>Quick Links</h4><br>
+                       <p ><a class="text-dark" href="">About us</a href=""></p>
+                        <p><a class="text-dark" href="">Our Process</a href=""></p>
+                        
+                    </div>
+                    <div class="col-md-3">
+                        <h4>Services</h4><br>
+                        <p><a class="text-dark" href="">Order Delivery</a href=""></p>
+                        <p><a class="text-dark" href="bulk.html">Bulk Order</a href=""></p>
+                        <p><a class="text-dark" href="">Contact us</a href=""></p>
+                      
+                    </div>
+                    <div class="col-md-3">
+                        <h4>Our Policies</h4><br>
+                        <p><a class="text-dark" href="">Cancellation & Refund</a href=""></p>
+                        <p><a class="text-dark" href="">Shipping</a href=""></p>
+                        <p><a class="text-dark" href="">Payment</a href=""></p>
+                        <p><a class="text-dark" href="">Terms & Conditions</a href=""></p>
+                    </div>
+                    <div class="col-md-3">
+                        <h4>Reach Us</h4><br>
+                        <p><b>Email</b></p>
+                        <p>anshusingla405@gmail.com</p>
+                        <p><b>Call</b></p>
+                        <p>7986558520</p>
+                        <p><b>Customer Care Timing</b></p>
+                        <p>9.00 AM To 8.00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</body>
+
+</html>

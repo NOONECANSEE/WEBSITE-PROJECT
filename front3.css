@@ -1,0 +1,83 @@
+body{
+    background: url("/img/background.jpg");
+    background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            
+ 
+            
+
+}
+body{min-height:200vh;}
+.navbar-default{
+  transition:500ms ease;
+  background:transparent;
+}
+.navbar-default.scrolled{
+  background:rgb(223, 209, 209);
+}
+/* id of the search box */
+#srch{
+    width: 200px;
+}
+/* id of the row1 */
+#row1 {
+    padding-top: 85px;
+}
+#pos{
+  position: relative;
+}
+li:hover .dropdown-menu{
+  display: block;
+}
+
+/* Row1 Element 1 image and effects and overlay */
+#image1{
+    width: 100%;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;  
+}
+
+  .container-fluid{
+    position: relative;
+    /* width: 50%; */
+  }
+ 
+  .mid1 {
+    position: absolute;
+    bottom: 0;
+    
+    background-color: rgba(23,19,16,.6);
+    overflow: hidden;
+    width: 420px;
+     height: 0;
+    transition: .5s ease;
+  }
+  .bt1{
+    /* color: white; */
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  
+
+  /* #R1E1:hover #image1{
+    
+    transform: scale(0.90);
+     
+  } */
+ 
+  #R1E1:hover .mid1{
+    height: 100%;
+    opacity: 1;
+    
+  }
+
+  /* Row 1 Element 1 effects end */
+ 

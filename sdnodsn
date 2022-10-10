@@ -1,0 +1,54 @@
+<nav class="cat-nav pt-5">
+        <ul class="cat-list cat-list-coo-coo-cookie">
+            <li class="tab-link current" data-tab="catTab-0"><a href="#catTab-0">All</a></li>
+            <li class="tab-link" data-tab="catTab-1"><a href="#catTab-1">Centre Filled Cookies</a></li>
+            <li class="tab-link" data-tab="catTab-2"><a href="#catTab-2">Premium Cookies</a></li>
+            <li class="tab-link" data-tab="catTab-3"><a href="#catTab-3">Coconut Cookies</a></li>
+            <li class="tab-link" data-tab="catTab-4"><a href="#catTab-4">Butter Cookies</a></li>
+            <li class="tab-link" data-tab="catTab-5"><a href="#catTab-5">Cashew Cookies</a></li>
+            <li class="tab-link" data-tab="catTab-6"><a href="#catTab-6">Other Cookies</a></li>
+        </ul>
+    </nav>
+
+    nav{
+        display: block;
+    }
+    ul.cat-list{
+        display: flex;
+        justify-content: center;
+    }
+    ul.cat-list li{
+        border-color: #d12f14;
+        border-width: 2px 1px;
+        border-style: solid;
+        min-width: 90px;
+    
+        box-sizing: border-box;
+    }
+    ul{
+        list-style: outside none none
+    }
+    ul.cat-list li:first-child, ul.cat-list li:first-child a {
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+    ul.cat-list li:last-child, ul.cat-list li:last-child a {
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+    ul.cat-list li a{
+        display: block;
+        color: #000;
+        line-height: 36px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 0 10px;
+        font-size: 12px;
+    }
+    ul.cat-list li.current {
+        color: #fff;
+        background: #d12f14;
+    }
+    
+    

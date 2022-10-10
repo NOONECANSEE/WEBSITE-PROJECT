@@ -1,0 +1,76 @@
+body{
+    background: url("/img/background.jpg");
+    background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            
+
+}
+/* This is the id of the search button in the navbar */
+#srch{
+    width: 200px;
+}
+/* this is the id of heading haldiram this is because without padding text hide behind the navbar */
+#hal {
+    padding-top: 85px;
+}
+/* THIS IS THE ID AND CLASS FOR THE INDICATORS */
+.cen {
+    position: relative;
+    height: 490px;
+} 
+/* this is the is of the ACCOUNT  dropdown */
+#pos{
+    position: relative;
+}
+li:hover .dropdown-menu{
+    display: block;
+ }
+ #mid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* THIS IS ID OF THE HALDIRAM CAROUSEL */
+#c1 {
+    padding: 20px;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+
+}
+
+.image{
+    opacity: 1;
+    display: block;
+    width: 100px;
+    height: 120px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 25%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    
+    text-align: center;
+  }
+ td:hover  .image {
+    opacity: 0.5;
+  }
+  td:hover .middle  {
+    opacity: 1;
+  }
+  .text {
+    /* background-color: #04AA6D; */
+    color: rgb(241, 12, 12);
+    font-size: 16px;
+   font-weight: bolder;
+    
+  }

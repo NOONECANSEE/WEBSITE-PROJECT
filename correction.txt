@@ -1,0 +1,3 @@
+set the padding and all in the mobile view using media query
+
+set the search button and all

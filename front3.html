@@ -1,0 +1,254 @@
+<!-- REMOVE BOOTSTRAP AND USE FLEX -->
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="front3.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR START -->
+    <script>
+        $(window).scroll(function () {
+            $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+        });
+    </script>
+
+    <div class="section">
+        <div class="container">
+            <nav class="navbar navbar-default navbar-expand-md navbar-dark fixed-top">
+                <a class="navbar-brand"><img src="/img/logo.png" alt="" width="50px"></a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#bar" id="togicon">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="bar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="" class="btn">Offers</a>
+                        </li>
+                        <li class="nav-item" id="pos">
+                            <a class="btn dropdown" data-toggle="dropdown">Account</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="">Profile</a>
+                                <a class="dropdown-item" href="">Track Order</a>
+                                <a class="dropdown-item" href="">LogOut</a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="btn">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <div class="input-group" id="srch">
+                        <input type="text" class="form-control" placeholder="Search...">
+                        <div class="input-group-append">
+                            <button class="btn btn-secondary" type="button">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </nav>
+
+        </div>
+    </div>
+
+
+    <!-- NAVIGATION BAR END -->
+    <section>
+        <div class="carousel slide" data-ride="carousel" data-interval="2000" id="demo">
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div>
+                        <div class="col-md-12">
+                            <img src="img/haldiram s front (1).jpg" alt="" width="100%" style="padding-top: 85px;">
+                        </div>
+                        
+                    </div>
+
+
+                </div>
+                <div class="carousel-item">
+                    <div>
+                        <div class="col-md-12">
+                            <img src="img/nestle (1).jpg" alt="" width="100%" style="padding-top: 85px;">
+                        </div>
+                        
+                    </div>
+
+
+                </div>
+                <div class="carousel-item cen">
+                    <div class="row" id="c1">
+                        <div class="col-md-12">
+                            <img src="img/dettol fromt (1).jpg" alt="" width="100%" style="padding-top: 85px;">
+                        </div>
+                        
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-fluid">
+        <div class="row" id="row1">
+            <div class="col-md-4 col-sm-12">
+                <div id="R1E1">
+                    <img id="image1" src="/img/haldi namkeen front.jpeg" alt="">
+                    <div class="mid1">
+                        <a href="" class="btn btn-success bt1">View Namkeens</a>
+                    </div>
+                </div>
+                <!-- <center> -->
+                <!-- <h3>NAMKEENS</h3> -->
+                <!-- </center> -->
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div id="R1E1">
+                    <img id="image1" src="/img/chocolate front.jpg" alt="">
+                    <div class="mid1">
+                        <a href="" class="btn btn-success bt1">View Chocolate</a>
+                    </div>
+                </div>
+                <!-- <center> -->
+                <!-- <h3>CHOCOLATES</h3> -->
+                <!-- </center> -->
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div id="R1E1">
+                    <img id="image1" src="/img/cookie.jpeg" alt="">
+                    <div class="mid1">
+                        <a href="" class="btn btn-success bt1">View Cookies</a>
+                    </div>
+                </div>
+                <!-- <center> -->
+                <!-- <h3>COOKIES</h3> -->
+                <!-- </center> -->
+            </div>
+        </div>
+        <div class="row" id="row1">
+            <div class="col-md-4 col-sm-12">
+                <div id="R1E1">
+                    <img id="image1" src="/img/haldi namkeen front.jpeg" alt="">
+                    <div class="mid1">
+                        <a href="" class="btn btn-success bt1">View Bevrages</a>
+                    </div>
+                </div>
+                <!-- <center> -->
+                <!-- <h3>BEVRAGES</h3> -->
+                <!-- </center> -->
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div id="R1E1">
+                    <img id="image1" src="/img/chocolate front.jpg" alt="">
+                    <div class="mid1">
+                        <a href="" class="btn btn-success bt1">View Drinks</a>
+                    </div>
+                </div>
+                <!-- <center> -->
+                <!-- <h3>SOFT DRINK</h3> -->
+                <!-- </center> -->
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div id="R1E1">
+                    <img id="image1" src="/img/cookie.jpeg" alt="">
+                    <div class="mid1">
+                        <a href="" class="btn btn-success bt1">View Baby Food</a>
+                    </div>
+                </div>
+                <!-- <center> -->
+                <!-- <h3>BABY FOOD</h3> -->
+                <!-- </center> -->
+            </div>
+        </div>
+        <div class="row" id="row1">
+            <div class="col-md-4 col-sm-12">
+                <div id="R1E1">
+                    <img id="image1" src="/img/haldi namkeen front.jpeg" alt="">
+                    <div class="mid1">
+                        <a href="" class="btn btn-success bt1">View Dairy Prod.</a>
+                    </div>
+                </div>
+                <!-- <center> -->
+                <!-- <h3>Dairy Products</h3> -->
+                <!-- </center> -->
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div id="R1E1">
+                    <img id="image1" src="/img/chocolate front.jpg" alt="">
+                    <div class="mid1">
+                        <a href="" class="btn btn-success bt1">View Household</a>
+                    </div>
+                </div>
+                <!-- <center> -->
+                <!-- <h3>HOUSEHOLD PRODUCTS</h3> -->
+                <!-- </center> -->
+            </div>
+            <div class="col-md-4 col-sm-12" id="R1E1">
+                <img id="image1" src="/img/cookie.jpeg" alt="">
+                <div class="mid1">
+                    <a href="" class="btn btn-success bt1">View Cookies</a>
+                </div>
+                <!-- <center> -->
+                <!-- <h3>COOKIES</h3> -->
+                <!-- </center> -->
+            </div>
+        </div>
+    </div>
+
+    <section class="bg-white" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h4>Quick Links</h4><br>
+                    <p><a class="text-dark" href="">About us</a href=""></p>
+                    <p><a class="text-dark" href="">Our Process</a href=""></p>
+                    <p><a class="text-dark" href="FAQ.html">FAQ</a href=""></p>
+
+                </div>
+                <div class="col-md-3">
+                    <h4>Services</h4><br>
+                    <p><a class="text-dark" href="">Order Delivery</a href=""></p>
+                    <p><a class="text-dark" href="bulk.html" target="_blank">Bulk Order</a href=""></p>
+                    <p><a class="text-dark" href="contact_us.html" target="_blank">Contact us</a href=""></p>
+
+                </div>
+                <div class="col-md-3">
+                    <h4>Our Policies</h4><br>
+                    <p><a class="text-dark" href="Cancellation.html" target="_blank">Cancellation & Refund</a href="">
+                    </p>
+                    <p><a class="text-dark" href="shipping.html" target="_blank">Shipping</a href=""></p>
+                    <p><a class="text-dark" href="payment.html" target="_blank">Payment</a href=""></p>
+                    <p><a class="text-dark" href="T&C.html" target="_blank">Terms & Conditions</a href=""></p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Reach Us</h4><br>
+                    <p><b>Email</b></p>
+                    <p>anshusingla405@gmail.com</p>
+                    <p><b>Call</b></p>
+                    <p>7986558520</p>
+                    <p><b>Customer Care Timing</b></p>
+                    <p>9.00 AM To 8.00 PM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
